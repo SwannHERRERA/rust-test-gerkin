@@ -1,5 +1,5 @@
 pub fn fizz_buzz(n: i64) -> String {
-  if n % 3 == 0 && n % 5 == 0 {
+  if n % 15 == 0 {
     return "FIZZ BUZZ".to_string();
   }
 
