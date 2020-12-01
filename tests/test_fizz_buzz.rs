@@ -32,7 +32,3 @@ fn test_fizz_buzz() {
     .when_i_call_fizz_buzz()
     .then_i_shoud_return("FIZZ BUZZ");
 }
-#[test]
-fn test() {
-  assert_eq!(2 + 2, 4);
-}
